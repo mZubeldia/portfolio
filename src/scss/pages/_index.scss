@@ -6,4 +6,24 @@
 .main {
   height: 65vh;
   background-color: lightgoldenrodyellow;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  .main_text {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 80%;
+
+    justify-content: center;
+    align-items: center;
+
+    .main_text_span {
+      padding: 1rem;
+    }
+
+  }
 }

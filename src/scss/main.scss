@@ -1,8 +1,10 @@
 @import "core/variables";
 @import "core/reset";
 
-@import "layout/index";
 @import "layout/header";
 @import "layout/footer";
 
+@import "pages/about";
 @import "pages/index";
+@import "pages/projects";
+@import "pages/contact";

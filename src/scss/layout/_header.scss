@@ -7,6 +7,19 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
 
+.nav_list {
+    display: flex;
 
+    .nav_list_element {
+        padding: 0.5rem;
+    }
+}
+
+.nav_languages_list {
+    .nav_languages_list_element {
+        padding: 0.3rem;
+    }
 }

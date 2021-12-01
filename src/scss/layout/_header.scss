@@ -32,6 +32,10 @@
 .nav_list {
     display: flex;
 
+    @media (min-width: 992px) {
+        font-size: 1.5rem;
+    }
+
     .nav_list_element {
         padding: 0.5rem;
     }

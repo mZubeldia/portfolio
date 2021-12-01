@@ -21,10 +21,11 @@
         .footer_nav_list_element{
             padding-left: 0.4rem;
             padding-right: 0.4rem;
+        
             @media (min-width: 992px) {
             padding-left: 0.7rem;
             padding-right: 0.7rem;
-             }
+            }
         }
     }
 
@@ -34,6 +35,6 @@
         @media (min-width: 992px) {
         font-size: 2.3rem;
         }
-
+        
     }
 }

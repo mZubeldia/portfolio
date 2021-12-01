@@ -1,0 +1,30 @@
+
+//colores fuente
+/*
+fondo: #f5f5f5
+lila claro #b9a9ef
+gris claro #9b95a8
+lila #8c52ff
+
+font-family: 'Hammersmith One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+
+:root {
+    //colores
+    --main-bg-color: #f5f5f5;
+    --main-title-color: #8c52ff;
+    --main-subtitle-color: #b9a9ef;
+    --regular-text-color: #9b95a8;
+
+    //fuentes
+    --main-title-font: 'Hammersmith One', sans-serif;
+    --regular-text-font: 'Montserrat', sans-serif;
+
+    font-family: var(--regular-text-font);
+    color: var(--regular-text-color);
+}
+
+* {
+    
+}

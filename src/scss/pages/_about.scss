@@ -1,20 +1,19 @@
 .main_about {
-    flex-direction: column;
-    padding: 5rem;
-
-    justify-content: center;
+    padding: 1.5rem;
+}
+.main_about_title {
+    display: inline;
     
-    .main_about_wrapper {
-         @media (min-width: 992px) {
-             max-width: 60%;
-          }
-    }
+}
 
-    .main_about_title{
-        margin-bottom: 4rem;
-    }
+.wrapper_about {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
 
-    .main_about_text {
-        padding-bottom: 1.2rem;
-    }
+.about_subtitle {
+    color: var(--main-title-color);
+    font-family: var(--main-title-font);
+    text-transform: uppercase;
 }

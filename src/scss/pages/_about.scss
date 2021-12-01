@@ -1,0 +1,20 @@
+.main_about {
+    flex-direction: column;
+    padding: 5rem;
+
+    justify-content: center;
+    
+    .main_about_wrapper {
+         @media (min-width: 992px) {
+             max-width: 60%;
+          }
+    }
+
+    .main_about_title{
+        margin-bottom: 4rem;
+    }
+
+    .main_about_text {
+        padding-bottom: 1.2rem;
+    }
+}

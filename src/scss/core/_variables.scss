@@ -24,8 +24,18 @@ font-family: 'Montserrat', sans-serif;
     font-family: var(--regular-text-font);
     color: var(--regular-text-color);
     background-color: var(--main-bg-color);
+
+    a,
+    a:visited,
+    a:hover,
+    a:active {
+    text-decoration: none;
+    color: var(--main-subtitle-color);
+}
+    
 }
 
 * {
     
 }
+

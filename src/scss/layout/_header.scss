@@ -1,5 +1,6 @@
 .header {
     height: 20vh;
+    color: var(--main-subtitle-color);
 
     padding: 2rem;
 
@@ -8,6 +9,24 @@
     align-items: center;
 
     border-bottom: solid 3px var(--main-title-color);
+
+    .header_title{
+        font-family: var(--main-title-font);
+        color: var(--main-title-color);
+        font-size: 1.7rem;
+        @media (min-width: 768px) {
+            font-size: 2rem;
+         }
+        
+         @media (min-width: 992px) {
+             font-size: 2.3rem;
+         }
+
+         @media (min-width: 1200px) { 
+             font-size: 2.7rem;
+         }
+
+    }
 }
 
 .nav_list {

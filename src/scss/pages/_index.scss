@@ -6,7 +6,6 @@
   .main_text {
     display: flex;
     flex-direction: column;
-    height: 80%;
     width: 80%;
 
     justify-content: center;
@@ -14,8 +13,9 @@
 
     font-size: 2.1rem;
 
+    border-left: solid 3px var(--main-title-color);
+
     @media (min-width: 768px) {
-      padding-left: 12%;
       font-size: 2.5rem;
      }
      @media (min-width: 992px) {

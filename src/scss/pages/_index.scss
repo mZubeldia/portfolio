@@ -4,8 +4,7 @@
 
   display: flex;
 
-  justify-content: center;
-  align-items: center;
+  
 
   .main_text {
     display: flex;
@@ -21,4 +20,9 @@
     }
 
   }
+}
+
+.main_landing{
+  justify-content: center;
+  align-items: center;
 }

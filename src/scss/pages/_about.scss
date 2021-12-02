@@ -1,7 +1,7 @@
 .main_about {
-    padding: 1.5rem;
+    padding: 5rem;
     display: flex;
-    width: 100%;
+    //width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -20,9 +20,8 @@
     
 }
 
-.wrapper_about {
-    width: 50%;
-   
+.about_section {
+    margin-bottom: 1rem;
 }
 
 .about_subtitle {
@@ -35,13 +34,6 @@
     padding-top: 0.5rem;
 }
 
-.about_section {
-    margin-bottom: 1rem;
-}
-
-.profile {
-
-}
 .profile-paragraph {
     padding-bottom: 1rem;
 }
@@ -72,4 +64,23 @@
 .about_projects_link {
     color: var(--main-subtitle-color) !important;
     text-decoration: underline;
+}
+
+
+//wrappers
+
+.wrapper_about_left {
+    @media (min-width: 768px) { 
+        width: 50%;
+        display: flex;
+    }
+    
+}
+
+.wrapper_about_right {
+    @media (min-width: 768px) { 
+        width: 50%;
+    }
+   
+    
 }

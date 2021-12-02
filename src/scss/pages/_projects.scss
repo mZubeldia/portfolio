@@ -10,6 +10,11 @@ a:active {
 }
 
 .main_projects {
+  background-color: var(--main-bg-color);
+  font-family: var(--regular-text-font);
+  color: var(--regular-text-color);
+
+
     flex-direction: column;
     padding: 5rem;
 

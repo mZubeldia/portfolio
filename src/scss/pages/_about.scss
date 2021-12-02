@@ -1,19 +1,75 @@
 .main_about {
     padding: 1.5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.7rem;
+    text-align: justify;
+
 }
 .main_about_title {
-    display: inline;
+    //display: inline;
+    align-self: flex-start;
+    color: var(--main-title-color);
+    font-family: var(--main-title-font);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
     
 }
 
 .wrapper_about {
     width: 50%;
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .about_subtitle {
+    
     color: var(--main-title-color);
     font-family: var(--main-title-font);
     text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.about_section {
+    margin-bottom: 1rem;
+}
+
+.profile {
+
+}
+.profile-paragraph {
+    padding-bottom: 1rem;
+}
+
+.skills_list {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+
+    .skills_wrapper {
+        width: 50%;
+    }
+    .skills_wrapper2{
+        width: 50%
+    }
+}
+
+.experience_title {
+    font-weight: 600;
+    padding-top: 0.5rem;
+}
+.experience_subtitle {
+    text-transform: uppercase;
+    color: var(--main-subtitle-color);
+    padding-bottom: 0.5rem;
+}
+
+.about_projects_link {
+    color: var(--main-subtitle-color) !important;
+    text-decoration: underline;
 }

@@ -15,15 +15,24 @@ a:active {
   color: var(--regular-text-color);
 
 
-    flex-direction: column;
-    padding: 5rem;
+  flex-direction: column;
+  padding: 5rem;
 
-
+    .card {
+      //align-items: center;
+    }
     .card-image {
-        //max-width: 250px;
+     // width: 85%;
+      align-self: center;
     }
 
     .card-link {
       color: var(--main-title-color);
+      
+    }
+    .card-footer {
+      display: flex;
+      //align-content: center;
+      justify-content: space-around;
     }
 }

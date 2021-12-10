@@ -37,11 +37,15 @@
     color: var(--regular-text-color);
     }
 
+    @media (min-width: 768px) { 
+        font-size: 1.1rem ; 
+     }
+
 }
     
 
 
 * {
-    
+   
    
 }

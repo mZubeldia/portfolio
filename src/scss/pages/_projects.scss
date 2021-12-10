@@ -37,8 +37,9 @@ a:active {
 
     .card-header {
       display: flex;
-      
+      align-items: center;
       justify-content: space-around;
+      height: 5rem;
     }
     .card-image {
      // width: 85%;

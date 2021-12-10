@@ -22,25 +22,21 @@
 
     <main class="main main_contact">
 
-        <h2>Contact me</h2>
-        <form>
-            <div class="form-column align-items-center">
-              <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputName">First Name</label>
-                <input type="text" class="form-control" id="inlineFormInputName" placeholder="First Name">
-              </div>
-              <div class="col-sm-3 my-1">
-                <label class="sr-only" for="inlineFormInputGroupUsername">Last Name</label>
-                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Last Name">
-              </div>
-              
-              <div class="col-sm-3 my-1">
-    
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Let's get in contact!"></textarea>
-              </div>
-    
+        <h2 class="contact_title">Contact me</h2>
+          <form class="form_contact">
+            <div class="form-group col-md-12">
+              <label for="name">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="John Smith">
             </div>
-        </form>
+            <div class="form-group col-md-12">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="johnsmith@example.com">
+            </div>
+            <div class="form-group col-md-12">
+              <label for="email">Reasons</label>
+              <textarea type="email" class="form-control" id="email" placeholder="I want to work with you!"></textarea>
+            </div>
+          </form>
     
     </main>
 

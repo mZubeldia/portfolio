@@ -1,3 +1,14 @@
+/****** links *******/
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
 .header {
     height: 20vh;
     color: var(--main-subtitle-color);

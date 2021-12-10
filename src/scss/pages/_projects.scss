@@ -40,3 +40,14 @@ a:active {
       justify-content: space-around;
     }
 }
+
+.projects_title {
+  color: var(--main-title-color);
+  font-family: var(--main-title-font);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  @media (min-width: 768px) {
+      font-size: 2.5rem;
+  }
+}

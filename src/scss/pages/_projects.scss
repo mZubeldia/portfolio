@@ -25,15 +25,42 @@ a:active {
 
     .card {
       //align-items: center;
+      border: 2px solid var(--main-title-color);
+      border-radius: 30px;
+      //background-color: var(--main-bg-color) ;
+      padding: 1rem;
+      //max-height: 500px;
+
+    
+
+    }
+
+    .card-header {
+      display: flex;
+      
+      justify-content: space-around;
     }
     .card-image {
      // width: 85%;
-      align-self: center;
+      //align-self: center;
+     
     }
 
     .card-link {
       color: var(--main-title-color);
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
       
+    }
+
+    .card-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .card-list-element {
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
     }
     .card-footer {
       display: flex;

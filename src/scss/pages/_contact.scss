@@ -18,6 +18,10 @@
     font-family: var(--main-title-font);
     text-transform: uppercase;
     font-size: 2rem;
+    @media (min-width: 768px) {
+        font-size: 2.5rem;
+
+    }
 }
 /*
 .form-wrapper {

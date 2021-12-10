@@ -18,6 +18,11 @@ a:active {
   flex-direction: column;
   padding: 5rem;
 
+  .card-wrapper {
+    border-left: solid 3px var(--main-title-color);
+    padding: 1.5rem;
+  }
+
     .card {
       //align-items: center;
     }

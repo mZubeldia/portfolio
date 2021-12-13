@@ -1,24 +1,26 @@
 
 .aside {
-    display: flex;
-    justify-content: center;
     height: 100%;
-    align-items: center;
+    padding: 0.3rem;
+    opacity: 0.5;
 
-    padding-top: 1.5rem;
 
-    .aside{
-        display: flex;
-        width: 100%;
-        justify-content: center;
+    .aside-nav{
+        //display: flex;
+
+        //justify-content: center;
+        //align-items: center;
+    
+        //width: 100%;
+        //justify-content: center;
 
         .aside_nav_list_element{
-            padding-left: 0.4rem;
-            padding-right: 0.4rem;
+            padding-bottom: 0.4rem;
+            padding-top: 0.4rem;
         
             @media (min-width: 992px) {
-            padding-left: 0.7rem;
-            padding-right: 0.7rem;
+            //padding-bottom: 0.7rem;
+            //padding-top: 0.7rem;
             }
         }
     }

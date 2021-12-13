@@ -4,6 +4,20 @@
     border-top: solid 3px var(--main-title-color);
     background-color: var(--main-bg-color);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-family: var(--regular-text-font);
+    color: var(--regular-text-color);
+
+    //font-size: 1.2rem !important;
+
+    .footer-link {
+        color: var(--main-title-color);
+    }
+
 }
 
 .footer_nav {

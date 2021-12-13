@@ -1,6 +1,6 @@
 .main.main_contact {
     flex-direction: column;
-    padding: 5rem;
+    padding: 3rem;
     align-items: center;
     
 
@@ -32,7 +32,7 @@
 }*/
 .form_contact {
     border-left: solid 3px var(--main-title-color);
-    padding: 1.5rem;
+    padding-left: 0.5rem;
 
     @media (min-width: 768px) {
 

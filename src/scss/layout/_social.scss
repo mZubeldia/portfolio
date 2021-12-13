@@ -4,9 +4,10 @@
     opacity: 0.5;
     right: 0;
     position: fixed;
+    z-index: 1;
 
-    @media (min-width: 992px) {
-        right: 3rem;
+    @media (min-width: 1200px) {
+        right: 1.2rem;
     }
 
     .aside-nav{

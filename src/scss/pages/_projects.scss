@@ -66,12 +66,15 @@ a:active {
 
       .card_image {
        width: 100%;
-
+        border-radius: 28px;
+        margin-top: 0.7rem;
+        margin-bottom: 0.7rem;
       }
 
       .card_title {
         text-transform: capitalize;
         font-weight: 600;
+        padding-bottom: 1rem;
       }
 
       .card_technology_list {

@@ -43,6 +43,7 @@ a:active {
     .card {
       display: flex;
       min-height: 18rem;
+      max-width: 20rem;
 
       flex-direction: column;
       justify-content: space-evenly;
@@ -65,7 +66,7 @@ a:active {
       }
 
       .card_image {
-       width: 100%;
+        width: 100%;
         border-radius: 28px;
         margin-top: 0.7rem;
         margin-bottom: 0.7rem;
@@ -94,9 +95,6 @@ a:active {
           border-radius: 10px;
         }
       }
-
-      
-     
     }
   }
 

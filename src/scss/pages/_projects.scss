@@ -85,6 +85,7 @@
         font-weight: 600;
         padding-bottom: 1rem;
         text-align: center;
+        font-size: 1.2rem;
       }
       .card_technology_section {
        // height: 5rem;
@@ -94,7 +95,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         .technology_list_element {
           padding: 0.2rem;
@@ -119,6 +120,11 @@
 
 .projects_text {
   padding: 2rem;
+
+  @media (min-width: 992px) {
+    padding: 3rem;
+  }
+  
 }
 
 

@@ -96,12 +96,10 @@
 }
 
 .about_projects_link {
-  color: var(--border-title-color) !important;
+  color: var(--highlight-color) !important;
   text-decoration: underline;
 
-  :hover{
-    color: var(--highlight-color);
-  }
+
 }
 
 //wrappers

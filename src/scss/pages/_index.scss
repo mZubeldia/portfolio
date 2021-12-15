@@ -29,6 +29,7 @@
       border-left: solid 3px var(--border-title-color);
       background-color: rgba(255, 255, 255, 0.678);
       line-height: 1.2;
+      color: var(--border-title-color)
     }
   }
 }
@@ -40,7 +41,7 @@
   padding-left: 3rem;
 
   .job {
-    color: var(--border-title-color);
+    color: var(--highlight-color) !important;
     font-weight: 300;
     text-transform: uppercase;
   }

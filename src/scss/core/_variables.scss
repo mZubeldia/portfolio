@@ -12,10 +12,28 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
+//POSIBLE NUEVA PALETA
+#9a2381 - bordes y títulos
+#f5f5f5 - fondo
+#3a0c4c - header y footer
+#d92586 - enlaces
+
+old palette
+  --main-bg-color: #f5f5f5;
+  --main-title-color: #8c52ff;
+  --main-subtitle-color: #b9a9ef;
+  --regular-text-color: #9b95a8;
+
 */
 
 :root {
   //colores
+  --bg-color: #f5f5f5;
+  --bg-header-footer-color: #3a0c4c;
+  --border-title-color: #9a2381;
+  --highlight-color: #d92586;
+
+
   --main-bg-color: #f5f5f5;
   --main-title-color: #8c52ff;
   --main-subtitle-color: #b9a9ef;
@@ -32,7 +50,7 @@
   a:hover,
   a:active {
     text-decoration: none;
-    color: var(--regular-text-color);
+    color: var(--highlight-color);
   }
 
   @media (min-width: 768px) {

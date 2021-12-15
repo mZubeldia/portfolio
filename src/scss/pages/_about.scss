@@ -121,7 +121,7 @@
 }*/
 
 .wrapper_about_left {
-  border-left: solid 3px var(--highlight-color);
+  border-left: solid 3px var(--border-title-color);
   padding: 1.5rem;
 
   @media (min-width: 768px) {
@@ -131,7 +131,7 @@
 }
 
 .wrapper_about_right {
-  border-left: solid 3px var(--highlight-color);
+  border-left: solid 3px var(--border-title-color);
   padding: 1.5rem;
 
   @media (min-width: 768px) {

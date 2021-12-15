@@ -32,7 +32,7 @@
    // max-width: 60rem;
 }*/
 .form_contact {
-    border-left: solid 3px var(--highlight-color);
+    border-left: solid 3px var(--border-title-color);
     padding-left: 0.5rem;
 
     @media (min-width: 768px) {
@@ -60,7 +60,10 @@
 }
 .myButton:hover {
 	background-color:hsl(319, 52%, 86%);
+    border-color: var(--highlight-color);
+    color: var(--highlight-color)
 }
+
 .myButton:active {
 	position:relative;
 	top:1px;

@@ -27,8 +27,11 @@ a:active {
     }
     .header_title{
         font-family: var(--main-title-font);
-        color: var(--border-title-color);
+        color: var(--highlight-color);
         font-size: 1.7rem;
+        :hover{
+            color: var(--border-title-color)
+        }
         @media (min-width: 768px) {
             font-size: 2rem;
          }

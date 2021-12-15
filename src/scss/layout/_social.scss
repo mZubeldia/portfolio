@@ -23,9 +23,9 @@
             padding-bottom: 0.4rem;
             padding-top: 0.4rem;
             font-size: 2rem;
-            color: var(--main-title-color);
+            color: var(--border-title-color);
             :hover {
-                color: var(--regular-text-color);
+                color: var(--highlight-color);
             }
             @media (min-width: 992px) {
                 font-size: 2.3rem;

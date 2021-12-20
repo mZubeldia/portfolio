@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
@@ -15,16 +16,7 @@ function App() {
         </div>
         <div class="image-wrapper"></div>
       </main>
-      <footer class="footer">
-        <p>
-          <small>
-            Developed by ©{" "}
-            <a class="footer-link" href="https://github.com/mZubeldia">
-              mZubeldia
-            </a>
-          </small>
-        </p>
-      </footer>
+      <Footer />
     </>
   );
 }

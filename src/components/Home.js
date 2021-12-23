@@ -1,11 +1,19 @@
 //import "..stylesheet/App"
 //import "./stylesheet/pages/home.scss";
+import SocialMedia from "./SocialMedia";
 
-import perfil from "../images/foto.png"
+
+import "../stylesheet/App.scss";
+
+//import mainPic from "./images/foto.png";
 
 const Home = () => {
   return (
+    <>
+    
+    <SocialMedia />
     <main className="main main_landing">
+      
       <div className="text-wrapper">
         <h2 className="main_text">
           <span className="main_text_span greeting">Hi there, I'm María</span>
@@ -13,10 +21,12 @@ const Home = () => {
         </h2>
       </div>
       <div className="image-wrapper">
-       
+        
       </div>
     </main>
+    </>
   );
 };
 export default Home;
-// <img src={perfil}/>
+
+//<img src={mainPic} alt="profile" />

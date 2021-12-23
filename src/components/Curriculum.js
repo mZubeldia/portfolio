@@ -10,21 +10,21 @@ const Curriculum = () => {
             <li className="languages_list_element">
               <img
                 className="languages_image icon"
-                src="./assets/images/spanish.png"
+                src="./images/spanish.png"
                 alt="spanish flag"
               />
             </li>
             <li className="languages_list_element">
               <img
                 className="languages_image icon"
-                src="./assets/images/english.png"
+                src="./images/english.png"
                 alt="uk flag"
               />
             </li>
             <li className="languages_list_element">
               <img
                 className="languages_image icon"
-                src="./assets/images/french.png"
+                src="/images/french.png"
                 alt="french flag"
               />
             </li>
@@ -50,35 +50,35 @@ const Curriculum = () => {
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/html5.png"
+                  src="./images/html5.png"
                   alt="html logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/css3.png"
+                  src="./images/css3.png"
                   alt="css logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/js.png"
+                  src="./images/js.png"
                   alt="javascript logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/bootstrap.png"
+                  src="./images/bootstrap.png"
                   alt="bootstrap logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/sass.png"
+                  src="./images/sass.png"
                   alt="sass logo"
                 />
               </li>
@@ -87,35 +87,35 @@ const Curriculum = () => {
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/zeplin.png"
+                  src="./images/zeplin.png"
                   alt="zeplin logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/react.png"
+                  src="./images/react.png"
                   alt="react logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/gulp.png"
+                  src="./images/gulp.png"
                   alt="gulp logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/nodejs.png"
+                  src="./images/nodejs.png"
                   alt="nodejs logo"
                 />
               </li>
               <li className="skills_list_element">
                 <img
                   className="icon"
-                  src="./assets/images/sqlite.png"
+                  src="./images/sqlite.png"
                   alt="sqlite logo"
                 />
               </li>
@@ -152,10 +152,10 @@ const Curriculum = () => {
           <h3 className="about_subtitle">projects</h3>
           <p>
             You can check out my projects{" "}
-            <a className="about_projects_link" href="./projects.html">
+            <a className="about_projects_link" href="./projects">
               here
             </a>{" "}
-            and <a href="https://github.com/mZubeldia?tab=repositories">here</a>
+            and <a className="about_projects_link" href="https://github.com/mZubeldia?tab=repositories">here</a>
           </p>
         </section>
         <section className="about_section education">

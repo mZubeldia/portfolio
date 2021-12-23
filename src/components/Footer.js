@@ -7,11 +7,11 @@ export default Footer;*/
 
 const Footer = () => {
   return (
-    <footer class="footer">
+    <footer className="footer">
       <p>
         <small>
           Developed by ©{" "}
-          <a class="footer-link" href="https://github.com/mZubeldia">
+          <a className="footer-link" href="https://github.com/mZubeldia">
             mZubeldia
           </a>
         </small>

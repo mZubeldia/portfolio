@@ -1,38 +1,35 @@
+import { Link } from "react-router-dom";
+
+
 const Header = () => {
   return (
-    <header class="header">
-      <nav class="header_nav">
-        <h1 class="header_title">
-          <a href="./index.html">mZubeldia</a>
+    <header className="header">
+      <nav className="header_nav">
+        <h1 className="header_title">
+          <Link to="./">mZubeldia</Link>
         </h1>
 
-        <ul class="nav_list">
-          <li class="nav_list_element">
-            <a class="nav_list_element_link" href="./cv.html">
-              CV
-            </a>
+        <ul className="nav_list">
+          <li className="nav_list_element">
+          <Link to="/curriculum" className="nav_list_element_link">cv</Link>
           </li>
-          <li class="nav_list_element">
-            <a class="nav_list_element_link" href="./projects.html">
-              projects
-            </a>
+          <li className="nav_list_element">
+          <Link to="/projects" className="nav_list_element_link">projects</Link>
           </li>
-          <li class="nav_list_element">
-            <a class="nav_list_element_link" href="./contact.html">
-              contact
-            </a>
+          <li className="nav_list_element">
+          <Link to="/contact" className="nav_list_element_link">contact</Link>
           </li>
         </ul>
 
-        <ul class="nav_languages_list header_nav_languages">
-          <li class="nav_languages_list_element">
-            <a class="languages_element_link" href="">
+        <ul className="nav_languages_list header_nav_languages">
+          <li className="nav_languages_list_element">
+            <a className="languages_element_link" href="">
               ES
             </a>
           </li>
 
-          <li class="nav_languages_list_element">
-            <a class="languages_element_link" href="">
+          <li className="nav_languages_list_element">
+            <a className="languages_element_link" href="">
               FR
             </a>
           </li>

@@ -7,8 +7,7 @@ const Projects = () => {
           Here are some of the projects I have worked on, but you can also check
           my GitHub
           <a className="about_projects_link" href="https://github.com/mZubeldia"
-            >repository</a
-          >.
+            > repository</a>.
         </p>
       </div>
 

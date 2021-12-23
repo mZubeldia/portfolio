@@ -32,7 +32,7 @@ const Projects = () => {
                   </li>
                 </ul>
               </nav>
-              <img class="card_image" src="./assets/images/rick_morty.png" alt="rick and morty image"/>
+              <img class="card_image" src="./images/rick_morty.png" alt="rick and morty"/>
               <section class="card_technology_section">
                 <ul class="card_technology_list">
                   <li class="technology_list_element">react</li>
@@ -61,7 +61,7 @@ const Projects = () => {
                   </li>
                 </ul>
               </nav>
-              <img class="card_image" src="./assets/images/gifapp.png" alt="gifapp"/>
+              <img class="card_image" src="./images/gifapp.png" alt="gifapp"/>
               <section class="card_technology_section">
                 <ul class="card_technology_list">
                   <li class="technology_list_element">react</li>
@@ -88,7 +88,7 @@ const Projects = () => {
                   </li>
                 </ul>
               </nav>
-              <img class="card_image" src="./assets/images/series-search.png" alt="series engine"/>
+              <img class="card_image" src="./images/series-search.png" alt="series engine"/>
               <section class="card_technology_section">
                 <ul class="card_technology_list">
                   <li class="technology_list_element">js</li>
@@ -116,7 +116,7 @@ const Projects = () => {
                   </li>
                 </ul>
               </nav>
-              <img class="card_image" src="./assets/images/easy_delivery.png" alt="easy delivery"/>
+              <img class="card_image" src="./images/easy_delivery.png" alt="easy delivery"/>
               <section class="card_technology_section">
                 <ul class="card_technology_list">
                   <li class="technology_list_element">react</li>

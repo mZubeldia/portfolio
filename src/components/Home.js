@@ -2,28 +2,23 @@
 //import "./stylesheet/pages/home.scss";
 import SocialMedia from "./SocialMedia";
 
-
-import "../stylesheet/App.scss";
+//import "../stylesheet/App.scss";
 
 //import mainPic from "./images/foto.png";
 
 const Home = () => {
   return (
     <>
-    
-    <SocialMedia />
-    <main className="main main_landing">
-      
-      <div className="text-wrapper">
-        <h2 className="main_text">
-          <span className="main_text_span greeting">Hi there, I'm María</span>
-          <span className="main_text_span job">a Frontend Developer</span>
-        </h2>
-      </div>
-      <div className="image-wrapper">
-        
-      </div>
-    </main>
+      <main className="main main_landing">
+        <SocialMedia />
+        <div className="text-wrapper">
+          <h2 className="main_text">
+            <span className="main_text_span greeting">Hi there, I'm María</span>
+            <span className="main_text_span job">a Frontend Developer</span>
+          </h2>
+        </div>
+        <div className="image-wrapper"></div>
+      </main>
     </>
   );
 };

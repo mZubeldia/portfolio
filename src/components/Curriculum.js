@@ -1,6 +1,9 @@
+import SocialMedia from "./SocialMedia";
+
 const Curriculum = () => {
   return (
     <main className="main_about">
+      <SocialMedia />
       <h2 className="main_about_title page_title">cv</h2>
 
       <div className="wrapper_about_left">
@@ -55,11 +58,7 @@ const Curriculum = () => {
                 />
               </li>
               <li className="skills_list_element">
-                <img
-                  className="icon"
-                  src="./images/css3.png"
-                  alt="css logo"
-                />
+                <img className="icon" src="./images/css3.png" alt="css logo" />
               </li>
               <li className="skills_list_element">
                 <img
@@ -76,11 +75,7 @@ const Curriculum = () => {
                 />
               </li>
               <li className="skills_list_element">
-                <img
-                  className="icon"
-                  src="./images/sass.png"
-                  alt="sass logo"
-                />
+                <img className="icon" src="./images/sass.png" alt="sass logo" />
               </li>
             </div>
             <div className="skills_wrapper2">
@@ -99,11 +94,7 @@ const Curriculum = () => {
                 />
               </li>
               <li className="skills_list_element">
-                <img
-                  className="icon"
-                  src="./images/gulp.png"
-                  alt="gulp logo"
-                />
+                <img className="icon" src="./images/gulp.png" alt="gulp logo" />
               </li>
               <li className="skills_list_element">
                 <img
@@ -155,7 +146,13 @@ const Curriculum = () => {
             <a className="about_projects_link" href="./projects">
               here
             </a>{" "}
-            and <a className="about_projects_link" href="https://github.com/mZubeldia?tab=repositories">here</a>
+            and{" "}
+            <a
+              className="about_projects_link"
+              href="https://github.com/mZubeldia?tab=repositories"
+            >
+              here
+            </a>
           </p>
         </section>
         <section className="about_section education">

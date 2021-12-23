@@ -1,0 +1,92 @@
+.main_about {
+    display: flex;
+    flex-wrap: wrap;
+    //justify-content: space-evenly;
+  
+    padding: 3rem;
+  
+    text-align: justify;
+  
+    @media (min-width: 768px) {
+      justify-content: space-evenly;
+    }
+  }
+  
+  .about_section {
+    margin-bottom: 1rem;
+  }
+  
+  .about_subtitle {
+    color: var(--border-title-color);
+    font-family: var(--main-title-font);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
+    padding-top: 0.5rem;
+  }
+  .languages_list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .profile-paragraph {
+    padding-bottom: 1rem;
+  }
+  
+  .skills_list {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+  
+    .skills_wrapper {
+      width: 50%;
+    }
+    .skills_wrapper2 {
+      width: 50%;
+    }
+  }
+  
+  .experience_title {
+    font-weight: 600;
+    padding-top: 0.5rem;
+  }
+  .experience_subtitle {
+    text-transform: uppercase;
+    color: var(--highlight-color);
+    padding-bottom: 0.5rem;
+  }
+  
+  .about_projects_link {
+    color: var(--highlight-color) !important;
+    text-decoration: underline;
+  }
+  
+  //wrappers
+  
+  .wrapper_about_left {
+    border-left: solid 3px var(--border-title-color);
+    padding: 1.5rem;
+  
+    @media (min-width: 768px) {
+      width: 50%;
+      max-width: 30rem;
+    }
+  }
+  
+  .wrapper_about_right {
+    border-left: solid 3px var(--border-title-color);
+    padding: 1.5rem;
+  
+    @media (min-width: 768px) {
+      width: 50%;
+      max-width: 30rem;
+    }
+  }
+  
+  //icons
+  
+  .icon {
+    height: 3rem;
+  }
+  

@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 import "./stylesheet/App.scss";
 
-import { Link, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 //componenets
 import Footer from "./components/Footer";

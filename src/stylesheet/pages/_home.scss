@@ -63,10 +63,9 @@
   
   .image-wrapper {
     display: none;
-    //background-image: url(./images/english.png);
-    //background-position-x: center;
-    //background-repeat: no-repeat;
-    //width: 100%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 50%;
     opacity: 0.5;
   
@@ -77,8 +76,9 @@
     @media (min-width: 768px) {
       height: 100%;
     }
-    .image {
-      height: 100%;
+    .landing-image {
+      width: fit-content;
     }
+
   }
   

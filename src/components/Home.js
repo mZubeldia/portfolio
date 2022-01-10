@@ -17,7 +17,8 @@ const Home = () => {
             <span className="main_text_span job">a Frontend Developer</span>
           </h2>
         </div>
-        <div className="image-wrapper"></div>
+        <div className="image-wrapper" style={{backgroundImage:"url(./images/foto.png)"}}>
+        </div>
       </main>
     </>
   );

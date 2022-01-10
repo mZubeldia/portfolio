@@ -65,9 +65,11 @@ const Curriculum = () => {
                   src="./images/html5.png"
                   alt="html logo"
                 />
+                <p className="skill-element-text">HTML5</p>
               </li>
               <li className="skills_list_element">
                 <img className="icon" src="./images/css3.png" alt="css logo" />
+                <p className="skill-element-text">CSS3</p>
               </li>
               <li className="skills_list_element">
                 <img
@@ -75,6 +77,7 @@ const Curriculum = () => {
                   src="./images/js.png"
                   alt="javascript logo"
                 />
+                <p className="skill-element-text">JS</p>
               </li>
               <li className="skills_list_element">
                 <img
@@ -82,10 +85,12 @@ const Curriculum = () => {
                   src="./images/bootstrap.png"
                   alt="bootstrap logo"
                 />
+                <p className="skill-element-text">Bootstrap</p>
               </li>
               <li className="skills_list_element">
                 <img className="icon" src="./images/sass.png" alt="sass logo" />
               </li>
+              <p className="skill-element-text">SASS</p>
             </div>
             <div className="skills_wrapper2">
               <li className="skills_list_element">
@@ -94,6 +99,7 @@ const Curriculum = () => {
                   src="./images/zeplin.png"
                   alt="zeplin logo"
                 />
+                <p className="skill-element-text">Zeplin</p>
               </li>
               <li className="skills_list_element">
                 <img
@@ -101,9 +107,11 @@ const Curriculum = () => {
                   src="./images/react.png"
                   alt="react logo"
                 />
+                <p className="skill-element-text">React</p>
               </li>
               <li className="skills_list_element">
                 <img className="icon" src="./images/gulp.png" alt="gulp logo" />
+                <p className="skill-element-text">Gulp</p>
               </li>
               <li className="skills_list_element">
                 <img
@@ -111,6 +119,7 @@ const Curriculum = () => {
                   src="./images/nodejs.png"
                   alt="nodejs logo"
                 />
+                <p className="skill-element-text">NodeJS</p>
               </li>
               <li className="skills_list_element">
                 <img
@@ -118,6 +127,7 @@ const Curriculum = () => {
                   src="./images/sqlite.png"
                   alt="sqlite logo"
                 />
+                <p className="skill-element-text">SQLite</p>
               </li>
             </div>
           </ul>

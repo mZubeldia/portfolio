@@ -177,9 +177,22 @@ const Curriculum = () => {
         <section className="about_section education">
           <h3 className="about_subtitle">education</h3>
           <ul>
-            <li>Frontend Development Bootcamp, Adalab</li>
-            <li>Translation and Interpreting Degree</li>
-            <li>Mobility program, France</li>
+            <li>
+              <h4 className="experience_title">
+                Frontend Development Bootcamp, Adalab
+              </h4>
+              <p className="experience_subtitle">April 2021 - July 2021</p>
+            </li>
+            <li>
+              <h4 className="experience_title">
+                Translation and Interpreting Degree
+              </h4>
+              <p className="experience_subtitle">2012 - 2017</p>
+            </li>
+            <li>
+              <h4 className="experience_title">Mobility program, France</h4>
+              <p className="experience_subtitle">2013 - 2014</p>
+            </li>
           </ul>
         </section>
       </div>

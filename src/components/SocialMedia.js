@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const SocialMedia = () => {
     return (
         <aside className="aside">
@@ -19,6 +21,12 @@ const SocialMedia = () => {
                         <i className="fab fa-twitter-square aside-icon"></i>
                     </a>
                 </li>
+                <li className="aside_nav_list_element">
+                <Link to="/contact" className="aside_nav_list_element_link">
+              <i class="fas fa-envelope aside-icon"></i>
+            </Link>
+                    
+                </li>
             </ul>
         </nav>
     </aside>
@@ -26,3 +34,5 @@ const SocialMedia = () => {
 };
 
 export default SocialMedia;
+
+// 

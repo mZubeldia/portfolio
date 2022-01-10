@@ -27,6 +27,7 @@
       .main_text_span {
         padding: 1rem;
         border-left: solid 3px var(--border-title-color);
+        //border-right: solid 3px #9a23804b;
         background-color: rgba(255, 255, 255, 0.678);
         line-height: 1.2;
         color: var(--border-title-color);
@@ -71,6 +72,7 @@
   
     @media (min-width: 576px) {
       display: block;
+      
     }
   
     @media (min-width: 768px) {

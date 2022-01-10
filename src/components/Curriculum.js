@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SocialMedia from "./SocialMedia";
 
 const Curriculum = () => {
@@ -166,9 +167,10 @@ const Curriculum = () => {
           <h3 className="about_subtitle">projects</h3>
           <p>
             You can check out my projects{" "}
-            <a className="about_projects_link" href="./projects">
+            <Link to="/projects" className="about_projects_link">
               here
-            </a>{" "}
+            </Link>
+            {" "}
             and{" "}
             <a
               className="about_projects_link"

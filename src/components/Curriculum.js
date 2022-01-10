@@ -11,25 +11,34 @@ const Curriculum = () => {
           <h3 className="about_subtitle">languages</h3>
           <ul className="languages_list">
             <li className="languages_list_element">
-              <img
-                className="languages_image icon"
-                src="./images/spanish.png"
-                alt="spanish flag"
-              />
+              <div className="language-element-wrapper">
+                <img
+                  className="languages_image icon-language"
+                  src="./images/spanish.png"
+                  alt="spanish flag"
+                />
+                <p>Native</p>
+              </div>
             </li>
             <li className="languages_list_element">
-              <img
-                className="languages_image icon"
-                src="./images/english.png"
-                alt="uk flag"
-              />
+              <div className="language-element-wrapper">
+                <img
+                  className="languages_image icon-language"
+                  src="./images/english.png"
+                  alt="uk flag"
+                />
+                <p>Fluent</p>
+              </div>
             </li>
             <li className="languages_list_element">
-              <img
-                className="languages_image icon"
-                src="/images/french.png"
-                alt="french flag"
-              />
+              <div className="language-element-wrapper">
+                <img
+                  className="languages_image icon-language"
+                  src="/images/french.png"
+                  alt="french flag"
+                />
+                <p>Proficient</p>
+              </div>
             </li>
           </ul>
         </section>

@@ -85,8 +85,30 @@
   }
   
   //icons
-  
+  .icon-language{
+    //height: 3rem;
+    width: 3rem;
+    padding-bottom: 0.4rem;
+    @media (min-width: 1200px) {
+      
+      margin-right: 0.6rem;
+    }
+  }
   .icon {
     height: 3rem;
+    }
+  
+
+  .language-element-wrapper{
+    display: flex;
+    padding: 0.3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 6rem;
+
+    @media (min-width: 1200px) {
+      flex-direction: row;
+    }
   }
   

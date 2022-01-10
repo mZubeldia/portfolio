@@ -137,6 +137,10 @@ const Curriculum = () => {
         <section className="about_section experience">
           <h3 className="about_subtitle">experience</h3>
           <h4 className="experience_title">
+            Jartura Games
+          </h4>
+          <h5 className="experience_subtitle">december 2021 - now</h5>
+          <h4 className="experience_title">
             Frontend Development Bootcamp, Adalab
           </h4>
           <h5 className="experience_subtitle">april 2021 - july 2021</h5>

@@ -19,27 +19,8 @@ const Header = () => {
               projects
             </Link>
           </li>
-          <li className="nav_list_element">
-            <Link to="/contact" className="nav_list_element_link">
-              contact
-            </Link>
-          </li>
+          
         </ul>
-        {/* 
-<ul className="nav_languages_list header_nav_languages">
-          <li className="nav_languages_list_element">
-            <a className="languages_element_link" href="#">
-              ES
-            </a>
-          </li>
-
-          <li className="nav_languages_list_element">
-            <a className="languages_element_link" href="#">
-              FR
-            </a>
-          </li>
-        </ul>
-*/}
       </nav>
     </header>
   );

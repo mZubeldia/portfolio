@@ -1,4 +1,5 @@
 import SocialMedia from "./SocialMedia";
+import { Form, FloatingLabel, Row, Col, Button } from "react-bootstrap";
 
 const Contact = () => {
   return (
@@ -6,7 +7,74 @@ const Contact = () => {
       <SocialMedia />
 
       <h2 className="page_title">Contact me</h2>
-      <form
+      <Form action="https://formspree.io/f/xjvlvooa" method="POST">
+        <Row>
+          <Col>
+            <FloatingLabel
+              controlId="floatingInput"
+              label="Name"
+              className="mb-3"
+              htmlFor="name"
+            >
+              <Form.Control
+                required
+                name="name"
+                id="name"
+                type="text"
+                placeholder="John Smith"
+              />
+            </FloatingLabel>
+          </Col>
+          <Col>
+            <FloatingLabel
+              htmlFor="email"
+              controlId="floatingInput"
+              label="Email address"
+              className="mb-3"
+            >
+              <Form.Control
+                required
+                name="email"
+                id="email"
+                type="email"
+                placeholder="name@example.com"
+              />
+            </FloatingLabel>
+          </Col>
+        </Row>
+
+        <FloatingLabel
+          htmlFor="message"
+          controlId="floatingTextarea2"
+          label="I want to work with you!"
+        >
+          <Form.Control
+            required
+            name="message"
+            id="message"
+            as="textarea"
+            placeholder="I want to work with you!"
+            style={{ height: "100px" }}
+          />
+        </FloatingLabel>
+
+        <Row>
+          <Col>
+            <Button className="my-3 myButton" type="submit">
+              Submit
+            </Button>
+          </Col>
+        </Row>
+      </Form>
+    </main>
+  );
+};
+
+export default Contact;
+
+/*
+
+<form
         action="https://formspree.io/f/xjvlvooa"
         method="POST"
         className="form_contact"
@@ -47,8 +115,5 @@ const Contact = () => {
         </div>
         <button className="myButton">Submit</button>
       </form>
-    </main>
-  );
-};
 
-export default Contact;
+*/

@@ -63,9 +63,9 @@
 	text-shadow:0px 1px 0px var(--border-title-color);
 }
 .myButton:hover {
-	background-color:hsl(319, 52%, 86%);
+	background-color:var(--border-title-color);
     border-color: var(--highlight-color);
-    color: var(--highlight-color)
+    color: #f5f5f5;
 }
 
 .myButton:active {

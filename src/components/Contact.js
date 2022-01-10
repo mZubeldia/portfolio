@@ -7,7 +7,7 @@ const Contact = () => {
       <SocialMedia />
 
       <h2 className="page_title">Contact me</h2>
-      <Form action="https://formspree.io/f/xjvlvooa" method="POST">
+      <Form className="contact-form m-2" action="https://formspree.io/f/xjvlvooa" method="POST">
         <Row>
           <Col>
             <FloatingLabel
@@ -54,7 +54,7 @@ const Contact = () => {
             id="message"
             as="textarea"
             placeholder="I want to work with you!"
-            style={{ height: "100px" }}
+            style={{ height: "10rem" }}
           />
         </FloatingLabel>
 

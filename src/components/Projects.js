@@ -9,11 +9,11 @@ const Projects = () => {
         <p className="projects_paragraph">
           Here are some of the projects I have worked on, but you can also check
           my GitHub
-          <a
+          {" "}<a
             className="about_projects_link"
             href="https://github.com/mZubeldia"
           >
-            {" "}
+            
             repository
           </a>
           .

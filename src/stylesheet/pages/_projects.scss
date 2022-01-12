@@ -1,6 +1,6 @@
 .main_projects {
     min-height: 70vh;
-  
+    padding: 2rem;
     .projects_paragraph {
       padding-top: 2rem;
       padding-bottom: 2rem;
@@ -110,7 +110,10 @@
   }
   
   .projects_text {
-    padding: 2rem;
+    //padding: 2rem;
+    text-align: justify;
+    padding-right: 1rem;
+    padding-left: 1rem;
   
     @media (min-width: 992px) {
       padding: 3rem;

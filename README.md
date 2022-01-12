@@ -1,4 +1,84 @@
-# Getting Started with Create React App
+# mZubeldia's Portfolio
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/74368515/149198771-10aa2258-3892-4df9-bc9c-34ff72a815a0.jpg" width="150px">
+
+  <a href="https://github.com/mZubeldia/portfolio">
+  </a>
+
+  <h3 align="center">mZubeldia's Portfolio</h3>
+
+  <p align="center">
+    This repo is a simple way to get in contact with me and to checkout my CV.
+  It is still building :)
+    <br />
+    <a href="https://github.com/mZubeldia/portfolio"><strong>Explore the docs</strong></a>
+    <br />
+    <br />
+    <a href="https://mzubeldia.github.io/portfolio//">View Demo</a>
+    ·
+    <a href="https://github.com/mZubeldia/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/mZubeldia/portfolio/issues">Request Feature</a>
+  </p>
+</p>
+
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/74368515/149199391-840df8b3-130d-4781-9446-c06944e1d916.png" width="650px" alt="web preview">
+ </p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+   <!-- <li><a href="#usage">Usage</a></li> -->
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+   <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+This project's goal is to create an easy way to get to know me a bit better and to contact me!
+It is still in progress, as I would like to add some animations and facts about myself, but this is the "simplest" version of it.
+
+
+### Built With
+
+- [ReactJS](https://reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [React-Bootstrap](https://react-bootstrap.github.io/)
+
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,15 +89,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.all npm@latest -g
 
 ### `npm run build`
 
@@ -29,42 +104,51 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
+ ```sh
+ git clone https://github.com/github_username/repo_name.git
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- ROADMAP -->
 
-## Learn More
+## Roadmap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+See the [open issues](https://github.com/mZubeldia/portfolio/issues) for a list of proposed features (and known issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTRIBUTING -->
 
-### Code Splitting
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Analyzing the Bundle Size
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- LICENSE -->
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Advanced Configuration
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+Twitter - [@mZubeldia_](https://twitter.com/mZubeldia_) 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+LinkedIn - [María Zubeldia](https://www.linkedin.com/in/mzubeldia/?locale=en_US)
 
-### `npm run build` fails to minify
+Email - mzubeldia09@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/mZubeldia/portfolio/projects/1](https://github.com/mZubeldia/portfolio/projects/1)

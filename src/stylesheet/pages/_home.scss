@@ -1,9 +1,12 @@
 .main {
-    height: 70vh;
+    height: 80vh;
   
     display: flex;
     justify-content: center;
     align-content: center;
+    @media (min-width: 992px) {
+      height: 70vh;
+    }
   
     .main_text {
       display: flex;

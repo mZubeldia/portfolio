@@ -1,10 +1,13 @@
 .aside {
   padding: 0.8rem;
   opacity: 0.5;
-  top: 11rem;
+  top: 9rem;
   right: 0;
   position: fixed;
   z-index: 1;
+  @media (min-width: 992px) {
+    top: 11rem;
+  }
 
   @media (min-width: 1200px) {
     right: 1.2rem;

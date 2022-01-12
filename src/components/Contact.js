@@ -29,7 +29,7 @@ const Contact = () => {
             <FloatingLabel
               htmlFor="email"
               controlId="floatingInput"
-              label="Email address"
+              label="Email"
               className="mb-3"
             >
               <Form.Control

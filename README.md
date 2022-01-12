@@ -109,7 +109,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. Clone the repo
  ```sh
- git clone https://github.com/github_username/repo_name.git
+ git clone https://github.com/mZubeldia/portfolio.git
 ````
 
 2. Install NPM packages

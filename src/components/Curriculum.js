@@ -35,7 +35,7 @@ const Curriculum = () => {
               <div className="language-element-wrapper">
                 <img
                   className="languages_image icon-language"
-                  src="/images/french.png"
+                  src="./images/french.png"
                   alt="french flag"
                 />
                 <p>Proficient</p>

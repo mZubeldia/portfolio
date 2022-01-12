@@ -26,7 +26,7 @@
 </p>
 
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/74368515/149199391-840df8b3-130d-4781-9446-c06944e1d916.png" width="650px" alt="web preview">
+  <img src="https://user-images.githubusercontent.com/74368515/149217310-e9497185-fada-408e-922e-0ea5d8c1f69e.png" width="650px" alt="web preview">
  </p>
 
 <!-- TABLE OF CONTENTS -->
